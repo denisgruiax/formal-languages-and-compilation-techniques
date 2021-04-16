@@ -1,0 +1,52 @@
+showTokens:
+4 VOID
+4 ID:main
+4 LPAR
+4 RPAR
+
+5 LACC
+
+6 IF
+6 LPAR
+6 CT_INT:12
+6 EQUAL
+6 CT_INT:14
+6 RPAR
+6 ID:put_s
+6 LPAR
+6 CT_STRING:"egal"              (h,o)
+6 RPAR
+6 SEMICOLON
+
+7 ELSE
+7 ID:put_s
+7 LPAR
+7 CT_STRING:"inegal"            (h,o)
+7 RPAR
+7 SEMICOLON
+
+8 IF
+8 LPAR
+8 CT_REAL:2.000000
+8 EQUAL
+8 CT_REAL:2.000000
+8 AND
+8 CT_REAL:2.000000
+8 EQUAL
+8 CT_INT:2
+8 RPAR
+8 ID:put_c
+8 LPAR
+8 CT_CHAR:=
+8 RPAR
+8 SEMICOLON
+
+8 ELSE
+8 ID:put_c
+8 LPAR
+8 CT_CHAR:\
+8 RPAR
+8 SEMICOLON
+
+9 RACC
+PS C:\Users\denis\Stardust> 

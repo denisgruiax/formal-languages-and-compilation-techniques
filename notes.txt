@@ -1,0 +1,34 @@
+//Regulă generală: dacă într-un anumit punct din
+gramatică există posibilitatea ca analiza să se blocheze,
+în acel punct este posibilă o eroare.
+
+Algoritm pentru tratarea erorilor posibile care pot apărea
+într-o gramatică:
+ regulile în sine nu vor genera erori, ci doar vor returna
+false dacă nu sunt îndeplinite.
+ în cadrul fiecărei reguli se determină care sunt
+punctele în care analiza se poate bloca
+ pentru fiecare dintre aceste puncte se va prevedea un
+mesaj de eroare specific
+
+Care e situatia cea mai des intalnita in practica?
+	- lipseste ?
+	- invalid / eronat ?
+	
+//declVar:  typeBase ID arrayDecl? ( COMMA ID arrayDecl? )* SEMICOLON
+bool declVar(){
+	Token *startTk=crtTk;
+	if(typeBase()){
+		if(consume(ID)){
+			if(arrayDecl()){
+				}
+			while(consume(COMMA)){
+				if(consume(ID)){
+					if(arrayDecl()){
+						}
+					} else tkerr(crtTk,"lipseste numele variabilei dupa ,");
+				}
+			if(consume(SEMICOLON)){
+				return true;
+				} else tkerr(crtTk,"lipseste ; dupa declaratia de variabila");
+			} else tkerr(crtT
