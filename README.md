@@ -11,15 +11,15 @@
 ### Purpose. 🎯
 The purpose of this programs is to test the ability to solve problems that consist in the basics of working with: 📚
 ```sh
-ntroducere in limbaje formale si tehnici de compilatoare. Expresii regulate.
-2	 Reprezentarea atomilor lexicali prin diagrame de tranzitie.
-3,4	 Implementarea analizorului lexical.
-5,6	 Implementarea analizorului sintactic.
-7	 Tabela de simboluri. Analiza de domeniu.
-8,9	 Analiza tipurilor.
-10	 Masina virtuala: structura, executie, instructiuni.
-11,12	 Generarea de cod.
-13	 Optimizare de cod.
+1. Introducere in limbaje formale si tehnici de compilatoare. Expresii regulate.
+2. Reprezentarea atomilor lexicali prin diagrame de tranzitie.
+3. Implementarea analizorului lexical.
+4. Implementarea analizorului sintactic.
+5. Tabela de simboluri. Analiza de domeniu.
+6. Analiza tipurilor.
+7. Masina virtuala: structura, executie, instructiuni.
+8. Generarea de cod.
+9. Optimizare de cod.
 ```
 
 ### Built With. ⚒️
