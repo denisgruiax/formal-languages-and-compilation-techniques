@@ -3,6 +3,18 @@
 ## Warning. ⚠️
 **I do not guarantee the correctness of the code!** ❌
 
+The code is difficult to understand and should be broken into several groups and the project restructured into levels.
+
+The code also violates several design principles that should be fixed. I will list a few things below:
+
+- ❌ it's not open closed
+- ❌ the code is hard to understand
+- ❌ it is difficult to add new code
+- ❌ the code has dependencies that it shouldn't have
+- ❌ memory management could be done better
+- ❌ the functions could be better defined and implemented
+- ❌ and so on so forth...
+
 ## Credits. ⭐
 
 - 🧑‍💻 Professor Razvan Aciu - [https://sites.google.com/site/razvanaciu/limbaje-formale-si-tehnici-de-compilare](https://sites.google.com/site/razvanaciu/limbaje-formale-si-tehnici-de-compilare)
