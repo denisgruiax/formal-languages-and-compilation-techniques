@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdarg.h>
-#include <conio.h>
 
 #define SAFEALLOC(var, Type)                          \
     if ((var = (Type *)malloc(sizeof(Type))) == NULL) \
@@ -86,7 +85,7 @@ int main()
     FILE *fileSource;
     char inBuffer[30000];
 
-    if ((fileSource = fopen("C:\\Users\\denis\\Stardust\\FacultyProjects\\FormalLanguagesAndCompilationTechniques\\lab3\\test.c", "r")) == NULL)
+    if ((fileSource = fopen("test.c", "r")) == NULL)
     {
         printf("eroare deschidere fisier");
         return EXIT_FAILURE;
